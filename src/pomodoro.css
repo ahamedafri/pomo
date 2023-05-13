@@ -1,0 +1,283 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  justify-content: space-between; /* To evenly distribute the items horizontally */
+
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  margin: 20px 0;
+}
+
+.session-type-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3f51b5;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.session-type-button:hover {
+  background-color: #283593;
+}
+
+.control-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.control-button:hover {
+  background-color: #388e3c;
+}
+
+.setting-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.setting-button:hover {
+  background-color: #d32f2f;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal input {
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.close-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #bdbdbd;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.close-button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+ 
+
+
+/* .music-image {
+position: relative;
+cursor: pointer;
+}
+.music-image img {
+display: block;
+width: 100%;
+height: auto;
+}
+.music-image.animated img {
+animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+from { transform: rotate(0deg); }
+to { transform: rotate(360deg); }
+} */
+
+/* .rotate {
+animation: spin 2s linear infinite;
+}
+
+.music-image.playing img {
+animation: rotate 2s linear infinite;
+} */
+
+/* .music-card.active {
+box-shadow: 0px 0px 10px 0px #00bcd4;
+} */
+
+.music-card,.active .music-card {
+box-shadow: 5px 14px 14px 15px #00FFFF;
+
+}
+.music-card.active h2 {
+color: #00FFFF;
+}
+
+
+/* .music-card.playing {
+background-color: rgba(0, 0, 0, 0.3);
+} */
+
+@keyframes rotate {
+100% {
+  transform: rotate(360deg);
+}
+}
+.audio-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.volume-control{
+  padding: 5px;
+  margin: 10px;
+}
+
+
+/* .music-card.playing {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+} */
+
+
+.music-card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(25% - 10px); /* To set the width of each item to 25% of the container, minus any margin or padding */
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0 14px 16px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+
+/*Music Card*/
+.music-card:hover {
+  transform: translateY(-5px);
+}
+
+.music-card button.pause:hover {
+  background-color: #c82333;
+}
+
+.music-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+
+/*Header*/
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__item {
+  margin: 0 1rem;
+}
+
+.header__item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+/*Footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.footer__text {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

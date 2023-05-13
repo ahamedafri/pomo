@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/pomo/static/css/main.bdbe55ef.css",
+    "main.js": "/pomo/static/js/main.10024c3a.js",
+    "static/js/787.b9b4fa77.chunk.js": "/pomo/static/js/787.b9b4fa77.chunk.js",
+    "static/media/jungle_night1.mp3": "/pomo/static/media/jungle_night1.37607c394549d5da1c86.mp3",
+    "static/media/water_stream1.mp3": "/pomo/static/media/water_stream1.077f65ea616e72355936.mp3",
+    "static/media/rain1.mp3": "/pomo/static/media/rain1.114faf2aa400caee154b.mp3",
+    "static/media/beach_waves1.mp3": "/pomo/static/media/beach_waves1.d5865935f7b18e706d00.mp3",
+    "static/media/beach.jpg": "/pomo/static/media/beach.e4599a16c6f3bba6f6bb.jpg",
+    "static/media/bird1.mp3": "/pomo/static/media/bird1.ff36713fa89fd8adeabc.mp3",
+    "static/media/rain.jpg": "/pomo/static/media/rain.9fe810b324b42e24d3ff.jpg",
+    "static/media/water.jpg": "/pomo/static/media/water.b3651249c5c6b6f32d90.jpg",
+    "static/media/fire1.mp3": "/pomo/static/media/fire1.0a9ce9ea230d537004af.mp3",
+    "static/media/jungle_night.jpg": "/pomo/static/media/jungle_night.63634f555e56d07499e9.jpg",
+    "static/media/bird.jpg": "/pomo/static/media/bird.57988ab51d3ee79596a1.jpg",
+    "static/media/fire.jpg": "/pomo/static/media/fire.a3e057fdabb1010df987.jpg",
+    "index.html": "/pomo/index.html",
+    "main.bdbe55ef.css.map": "/pomo/static/css/main.bdbe55ef.css.map",
+    "main.10024c3a.js.map": "/pomo/static/js/main.10024c3a.js.map",
+    "787.b9b4fa77.chunk.js.map": "/pomo/static/js/787.b9b4fa77.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdbe55ef.css",
+    "static/js/main.10024c3a.js"
+  ]
+}
